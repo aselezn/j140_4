@@ -10,12 +10,13 @@
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="application.controllers.DomainsController"
-            stylesheets="@style2.css">
+            fx:id="borderPaneDomains"
+            stylesheets="@domain_style_1.css">
 
     <top>
         <FlowPane BorderPane.alignment="TOP_LEFT" hgap="10" vgap="10">
             <Button fx:id="comeBackButton" text="Назад" onAction="#comeBackButtonClick"/>
-            <Button fx:id="changeStyle" text="Изменить стиль" onAction="#comeBackButtonClick"/>
+            <Button fx:id="changeStyle" text="Изменить стиль" onAction="#changeStyle"/>
         </FlowPane>
     </top>
 

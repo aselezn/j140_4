@@ -11,13 +11,13 @@
 <GridPane alignment="CENTER" hgap="10.0" vgap="10.0"
           xmlns:fx="http://javafx.com/fxml"
           fx:controller="application.controllers.LoginController"
-          stylesheets="@style1.css">
+          stylesheets="@styles/auth_persons_style.css">
 
     <padding>
         <Insets top="25.0" right="25.0" bottom="25.0" left="25.0"/>
     </padding>
 
-    <Label text="Welcome!"/>
+    <Label fx:id="header" text="Welcome!"/>
 
     <Label fx:id="usernameLabel" text="Имя пользователя:" GridPane.rowIndex="1"/>
     <TextField fx:id="usernameField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>

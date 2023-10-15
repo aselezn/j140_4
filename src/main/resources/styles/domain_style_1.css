@@ -1,6 +1,5 @@
-/* Стиль-2 для таблицы */
 .root {
-
+    -fx-background-color: #BCE8E6;
     -fx-font-family: "Times New Roman";
 }
 
@@ -9,7 +8,6 @@
     -fx-background-color: #197673;
     -fx-text-fill: white;
 }
-
 
 .table-view .column-header {
     -fx-font-size: 14px;

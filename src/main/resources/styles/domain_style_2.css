@@ -1,0 +1,37 @@
+.root {
+    -fx-background-color: #CCCCFF;
+    -fx-font-family: Arial;
+}
+
+.button {
+    -fx-pref-width: 200px;
+    -fx-background-color: #B266FF;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: #B266FF;
+    -fx-text-fill: white;
+    -fx-border-color: #5416D1;
+    -fx-border-width: 1px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #CCCCFF;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #FFFFFF;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #B266FF;
+    -fx-text-fill: white;
+}
+
+.table-cell:selected {
+    -fx-background-color: #B266FF;
+    -fx-text-fill: white;
+}

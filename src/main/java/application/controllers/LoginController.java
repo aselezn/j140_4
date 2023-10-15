@@ -23,6 +23,7 @@ public class LoginController {
     public Label usernameLabel;
     @FXML
     public Label passwordLabel;
+    public Label header;
     @FXML
     private Button loginButton;
 

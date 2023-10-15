@@ -5,10 +5,22 @@
     -fx-font-family: Arial;
 }
 
+.button {
+    -fx-pref-width: 200px;
+    -fx-background-color: #B266FF;
+    -fx-text-fill: white;
+}
+
+
 /* Стиль экрана Login */
-Label {
-    -fx-font-size: 16px;
-    -fx-font-weight: bold;
+
+#resultText {
+    -fx-fill: CC0000;
+}
+
+#header {
+   -fx-font-size: 16px;
+   -fx-font-weight: bold;
 }
 
 #usernameLabel {
@@ -19,24 +31,6 @@ Label {
 #passwordLabel {
     -fx-font-size: 12px;
     -fx-font-weight: bold;
-}
-
-TextField {
-    -fx-pref-width: 200px;
-}
-
-PasswordField {
-    -fx-pref-width: 200px; /* Ширина PasswordField */
-}
-
-Button {
-    -fx-pref-width: 200px; /* Ширина Button */
-    -fx-background-color: #B266FF; /* Цвет фона кнопки */
-    -fx-text-fill: white; /* Цвет текста на кнопке */
-}
-
-Text {
-    -fx-fill: CC0000;
 }
 
 /* Стиль для таблицы */
